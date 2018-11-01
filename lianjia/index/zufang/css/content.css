@@ -1,0 +1,588 @@
+        *{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		.container1{
+			width: 100%;
+			padding-bottom: 40px;
+			background-color: #f1f1f1;
+		}
+		div .header{
+			width: 100%;
+			height: 60px;
+			background-color: #39AC6A;
+			/*position: absolute;*/	
+		}
+		div .header .header1{
+			width: 1015px;
+			height: 60px;
+			margin: 0 auto;
+		}
+		div .header .logo{
+			width: 80px;
+			position: relative;
+			top: 15px;
+		}
+		div .header .nav {
+			height: 100%;
+			width: 750px;
+			position: relative;
+			top:-34px; left: 120px;
+		}
+		div .header .nav ul li{
+			height: 60px;
+			display: inline-block;
+			line-height: 60px;
+			padding-right: 8px;
+			padding-left: 8px;
+		}
+		div .header .nav ul li a{
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: #fff;
+			text-decoration: none;
+		}
+		div .header .nav ul #one{
+			background-color: #30965c;
+		}
+		div .header .register{
+			height: 20px;
+			width: 70px;
+			position: relative;
+			top: -38px;
+			left: 800px;
+			font-size: 14px;
+			color: #fff;
+		}
+		div .header .register a{
+			text-decoration: none;
+			color: #fff
+		}
+		div .header .register a:hover{
+			text-decoration: underline;
+		}
+/*-----header end-----*/
+		div .search{
+			width: 100%;
+			height: 60px;
+			line-height: 60px;
+			background-color: #fff;
+			display: flex;
+			align-items: center;
+		}
+		div .search10{
+			width: 1015px;
+			margin: 0 auto;
+		}
+		div .select1{
+			width: 500px;
+			height: 37px;
+			position: relative;
+			top: 18px;
+			border:1px solid #ccc;
+		}
+		div .select1 select{
+			width: 89px;
+			height: 37px;
+			position: absolute;
+			border:none;
+			outline: none;
+		}
+		div .select1 input{
+			width: 410px;
+			height: 37px;
+			float: right;
+			border:none;
+			outline: none;
+		}
+		div .search .search1{
+			width: 90px;
+			height: 37px;
+			background-color: #c7524b;
+			position: relative;
+			left: 510px;
+			display: flex;
+			justify-content: center;
+			line-height: 37px;
+			border-radius: 5px;
+		}
+		div .search .search1 a{
+			color: #fff;
+			text-decoration: none;	
+			font-weight:bold
+		}
+		div .search .search2{
+			width: 120px;
+			height: 37px;
+			background-color: #f5f5f5;
+			float: right;
+			position: relative;
+			top: -20px;
+			line-height: 37px;
+			display: flex;
+			justify-content: center;
+			border-radius: 5px;
+		}
+		div .search .search2 img{
+			width: 15px;
+			height: 15px;
+			position: relative;
+			top: 10px;
+		}
+		div .search .search2 a{
+			color: #333333;
+			text-decoration: none;	
+			font-weight:bold
+		}
+/*-----search end-----*/
+		div .main{
+			width: 100%;
+		}
+		div .menu{
+			width: 1015px;
+			height: 395px;
+			margin: 0 auto ;
+		}
+		div .menu .menu-header{
+			width: 100%;
+			height: 50px;
+			line-height: 50px;
+		}
+		div .menu .menu-header img{
+			width: 12px;
+			height: 12px;
+		}
+		div .menu .menu-header .menu-header1{
+			width: 1015px;
+			/*position: relative;
+			left: 260px;*/
+			font-size: 12px;
+			color: #555555;
+		}
+		div .menu .menu-header div a{
+			color: #555555;
+			text-decoration: none;
+		}
+		div .menu .menu1{
+			width: 1015px;
+			height: 48px;
+			border-bottom: 2px solid #39ac6a;
+			background-color: #f9f9f9;
+			margin: 0 auto;
+		}
+		div .menu .menu1 .menu1-1{
+			width: 120px;
+			height: 48px;
+			background-color: #39ac6a;
+			float: left;
+		}
+		div .menu .menu1 .menu1-1 a{
+			display: block;
+			width: 120px;
+			height: 48px;
+			line-height: 48px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 16px;
+			color: #fff;
+		}
+		div .menu .menu1 .menu1-2{
+			width: 120px;
+			height: 47px;
+			background-color: #f9f9f9;
+			float: left;
+		}
+		div .menu .menu1 .menu1-2 a{
+			display: block;
+			width: 120px;
+			height: 48px;
+			line-height: 48px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 16px;
+			color: #000;
+		}
+		div .menu .menu1 .menu1-3{
+			height: 48px;
+			line-height: 48px;
+			float: right;
+			font-size: 13px;
+			margin-right: 17px;
+			color: #39ac6a;
+		}
+		div .menu .menu2{
+			width: 1013px;
+			height: 185px;
+			border:1px solid #fff;
+			background-color: #fff;
+		}
+		div .menu .menu2 div{
+			width: 950px;
+			height: 160px;
+			margin-top: 17px;
+			margin-left: 25px; 
+		}
+		div .menu .menu2 div a{
+			text-decoration: none;
+			color: #000;
+		}
+		div .menu .menu2 div a:hover{
+			text-decoration: underline;
+		}
+	
+		div .menu .menu2 ul{
+			overflow: hidden;
+		}
+		div .menu .menu2 .green a{
+			color: #39ac6a;
+		}
+		div .menu .menu2 ul span{
+			float: left;
+			width:30px;
+			height: 30px;
+			font-weight: bold;
+		}
+		div .menu .menu2 ul>li{
+			margin-left: 13px;
+			margin-bottom: 8px;
+			float: left;
+			font-size: 13px;
+		}
+		div .menu .menu2 ul>li input{
+			width: 30px;
+		}
+		div .menu .menu3{
+			width: 1015px;
+			height: 50px;
+			background-color: #fbfbfb;
+			border-top: 1px solid #ccc;
+		}
+		div .menu .menu3 span{
+			font-weight: bold;
+		}
+		div .menu .menu3 div{
+			vertical-align: middle;
+			width: 950px;
+			height: 50px;
+			margin: 0 auto;
+			line-height: 50px;
+			font-size: 13px;
+		}
+		div .menu .menu3 input{
+			vertical-align: middle;
+		}
+		div .menu .menu3 ul>li{
+			float: left;
+			margin-left: 10px;
+		}
+		div .menu .menu3 select{
+			width: 80px;
+		}
+		div .menu .menu4{
+			width: 1015px;
+			height: 50px;
+			background-color: #fbfbfb;
+			border-top: 1px solid #ccc;
+		}
+		div .menu .menu4 a{
+			text-decoration: none;
+			color: #000;
+		}
+		div .menu .menu4 .menu4-0{
+			width: 950px;
+			height: 50px;
+			margin: 0 auto;
+			font-size: 13px;
+			line-height: 50px;
+		}
+		div .menu .menu4 .menu4-1{
+			width: 60px;
+			height: 48px;
+			float: left;
+			margin-left: -5px;
+			font-weight: bold;
+		}
+		div .menu .menu4 .menu4-1 span{
+			display: block;
+			width: 60px;
+			height: 48px;
+			text-align: center;
+			line-height: 48px;
+		}
+		div .menu .menu4 .menu4-2{
+			width: 60px;
+			height: 48px;
+			border-right: 1px solid #ccc;
+			border-left: 1px solid #ccc	;
+			background-color: #fff;
+			float: left;
+		}
+		div .menu .menu4 .menu4-2 a{
+			display: block;
+			width: 60px;
+			height: 48px;
+			text-align: center;
+			line-height: 48px;
+		}
+		div .menu .menu4 .menu4-3{
+			width: 60px;
+			height: 48px;
+			float: left;
+		}
+		div .menu .menu4 .menu4-3 a{
+			display: block;
+			width: 60px;
+			height: 48px;
+			text-align: center;
+			line-height: 48px;
+		}
+		div .menu .menu4 .menu4-3 a:hover{
+			background-color: #f5f5f5;
+		}
+		div .menu .menu4 .menu4-4{
+			width: 70px;
+			height: 48px;
+			float: left;
+		}
+		div .menu .menu4 .menu4-4 a{
+			display: block;
+			width: 70px;
+			height: 48px;
+			text-align: center;
+			line-height: 48px;
+		}
+		div .menu .menu4 .menu4-4 a:hover{
+			background-color: #f5f5f5;
+		}
+		div .menu .menu4 .menu4-5{
+			width: 103px;
+			height: 48px;
+			float: left;
+			margin-left: 10px;
+		}
+/*----menu end----*/
+		div .content{
+			width: 100%;
+			margin-top: 30px; 
+		}
+		div .content .content-header{
+			height: 50px;
+			width: 1015px;
+			background-color: #fff;
+			margin: 0 auto;
+			line-height: 50px;
+			border-bottom:1px solid #ccc;
+		}
+		div .content .content-header-left{
+			margin-left: 25px;
+			float: left;
+		}
+		div .content .content-header-left img{
+			position: relative;
+			top: 2px; left: -5px;
+		}
+		div .content .content-header-left a{
+			text-decoration: none;
+			color: #000;
+		}
+		div .content .content-header-right{
+			margin-right: 25px;
+			float: right;
+		}
+		div .content .content-header-right .one{
+			font-size: 12px;
+			font-weight: bold;
+		}
+		div .content .content-header-right .two{
+			color: red;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		div .content .content-header-right .three{
+			font-size: 12px;
+			font-weight: bold;
+		}
+		div .content .content1-1{
+			width: 955px;
+			height: 150px;
+			margin: 0 auto;
+			padding: 30px;
+			background-color: #fff;
+			border-bottom: 1px solid #ccc;
+		}
+		div .content .content1 .img img{
+			width: 185px;
+			height: 149px;
+			float: left;
+		}
+		div .content .content1 .text{
+			width: 77%;	
+			overflow: hidden;
+			float: left;
+		    margin-left: 20px;
+		}
+		div .content .content1 .text .text1{
+			overflow: hidden;
+		}
+		div .content .content1 .text h2{
+			color: #009de8;
+			float: left;
+		}
+		div .content .content1 .text .img2{
+			float: left;
+			margin-left: 10px;
+			position: relative;
+			top: 5px;
+		}
+		div .content .content1 .text .text2{
+			margin-top: 15px;
+			font-weight: bold;
+		}
+		div .content .content1 .text .text2 a{
+			color: black;
+			text-decoration: none;
+		}
+		div .content .content1 .text .text3{
+			margin-top: 15px;
+			color: #888888;
+		}
+		div .content .content1 .text .text3 a{
+			color: #888888;
+			text-decoration: none;
+		}
+		div .content .content1 .text .text4{
+			margin-top: 15px;
+		}
+		div .content .content1 .text .text4 img{
+			float: left;
+		}
+		div .content .content1 .text .text4  #ditie{
+			display:inline-block;
+			padding: 0px 5px;
+			height: 23px;
+			line-height: 23px;
+			border:1px solid #82a1bb;
+			margin-right: 10px;
+			color: #82a1bb;
+			float: left;
+			font-size: 14px;
+		}
+		div .content .content1 .text .text4 img{
+			width: 25px;
+		}
+		div .content .content1 .text .text4 #kanfang{
+			display:inline-block;
+			padding: 0px 5px;
+			height: 23px;
+			line-height: 23px;
+			border:1px solid #357eac;
+			margin-right: 10px;
+			color: #357eac;
+			float: left;
+			font-size: 14px;
+		} 
+		div .content .content1 .text .text4 #ziru{
+			display:inline-block;
+			padding: 0px 5px;
+			height: 23px;
+			line-height: 23px;
+			border:1px solid #ef9c0d;
+			margin-right: 10px;
+			color: #ef9c0d;
+			float: left;
+			font-size: 14px;
+		}
+		div .content .content1 .text .text4 #gongnuan{
+			display:inline-block;
+			padding: 0px 5px;
+			height: 23px;
+			line-height: 23px;
+			border:1px solid #e4393c;
+			margin-right: 10px;
+			color: #de6843;
+			float: left;
+			font-size: 14px;
+			border-left:none;
+		}
+		div .content .content1 .text .text5{
+			float: right;
+			position: relative;
+			top: -69px;
+		}
+		div .content .content1 .text .text5 #renshu1{	
+			color: #565a5c;
+			text-align: center;	
+		}
+		div .content .content1 .text .text5 #renshu2{
+			color: #999999;
+		}
+		div .content .content1 .text .text6{
+			float: right;
+			position: relative;
+			top: -80px; left: -40px;
+		}
+		div .content .content1 .text .text6 #zujin1{
+			font-size: 12px;
+			color: red;
+			text-align: center;
+		}
+		div .content .content1 .text .text6 #zujin2{
+			color: #999999;
+		}
+		div .content .content1 .text .text6 #zujin1-1{
+			font-size: 24px;
+			font-weight: bold;
+		}
+		div .foot{
+			width: 1015px;
+			height: 120px;
+			background-color: #fff;
+			margin: 0 auto;
+
+		}
+		div .foot .box{
+			width: 300px;
+			height: 30px;
+			border:none;
+			margin-top: 50px;
+			margin-left: 320px;
+		}
+		div .foot div{
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			border:1px solid #ccc;
+			line-height: 30px;
+			text-align: center;
+			font-size: 14px;
+			color: #555555;
+		}
+		div .foot a{
+			display: block;
+			text-decoration: none;
+			color: #555555;
+			width: 30px;
+			height: 30px;
+		}
+		div .foot a:hover{
+			text-decoration: underline;
+		}
+		div .foot .footer1{
+			background-color: #f5f5f5;
+		}
+		div .foot .footer4{
+			width: 40px;
+		}
+		div .foot .footer4 a{
+			display: block;
+			width: 40px;
+		}
+		div .foot .footer5{
+			width: 70px;
+		}
+		div .foot .footer5 a{
+			display: block;
+			width: 70px;
+		}

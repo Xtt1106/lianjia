@@ -1,0 +1,569 @@
+.wrapper{
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+#header{
+	color: #fff;
+	width: 100%;
+	height: 640px;
+	background: url(../images/bannerV2.jpg) center 0 no-repeat ;
+	background-attachment: fixed;
+}
+
+#header-top-left{
+	float: left;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+#t-l-logo{
+	display: block;
+	float: left;
+	height: 60px;
+	width: 137px;
+	background-image: url(../images/spriteV2_new.png);
+	background-position: left -370px;
+}
+
+#change-btn{
+	text-align: center;
+	display: block;
+	float: left;
+	margin-top: 20px;
+	height: 27px;
+	width: 59px;
+	background-color: rgba(0,0,0,0.25);
+	border-radius: 14px;
+	line-height: 27px;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+#change-btn i{
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	background-image: url(../images/spriteV2_new.png);
+	background-position: -189px -20px;
+}
+
+#header-top-right{
+	float: right;
+	width: 789px;
+	margin-top: 30px;
+}
+
+#header-top-right a{
+	color: #fff;
+}
+
+#loging{
+	font-size: 12px;
+	text-align: right;
+}
+
+#loging i{
+	display: inline-block;
+	width: 19px;
+	height: 17px;
+	margin-bottom: -4px;
+	background-image: url(../images/spriteV2_new.png);
+	background-position: -203px -20px;
+}
+
+#loging a{
+	line-height: 22px;
+}
+
+#guide{
+	margin-top: 8px;
+}
+
+#guide ul li{
+	height: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+#guide ul li img{
+	position: relative;
+	bottom: 4px;
+	width: 19px;
+	height: 22px;
+}
+
+#guide ul li i{
+	display: inline-block;
+	height: 10px;
+	width: 7px;
+	margin-left: -5px;
+	margin-right: 10px;
+	background-image: url(../images/spriteV2_new.png);
+	background-position: -225px -20px;
+}
+
+#header-center{
+	width: 100%;
+	height: 241px;
+	margin-top: 121px;
+}
+
+#wrap-icon{
+	width: 540px;
+	height: 69px;
+	margin: 0 auto;
+	background-image: url(../images/banner-text.png);
+	background-repeat: no-repeat;
+}
+
+#house-num ul{
+	height: 35px;
+	margin-top: 12px;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+
+#house-num li{
+	height: 35px;
+}
+
+#search-box{
+	width: 772px;
+	height: 99px;
+	margin: 18px auto;
+}
+
+#search-menu ul li{
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 700;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+#search-menu .clear{
+	width: 0;
+	height: 0;
+	padding-top: 4px;
+	margin-left: 20px;
+	border-style: solid;
+	border-width: 0 8px 8px;
+	border-color: transparent transparent #fff;
+
+}
+
+#search-text-box{
+	width: 100%;
+	height: 55px;
+	background-color: #fff;
+}
+
+#search-text{
+	float: left;
+	height: 100%;
+	width: 626px;
+	padding-left: 20px;
+}
+
+#search-btn{
+	float: left;
+	width: 126px;
+	height: 100%;
+	background-color: #00ae66;
+	font-size: 18px;
+	color: #fff;
+}
+
+#header-bottom{
+	margin-top: 140px;
+}
+
+#header-bottom a{
+	color: #fff;
+	font-size: 12px;
+	margin-right: 20px;
+}
+
+#header-bottom a img{
+	width: 16px;
+	height: 16px;
+	margin: 0 8px 0 0;
+}
+/* header END*/
+
+#home-nav{
+	height: 244px;
+	width: 1150px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-item{
+	width: 30%;
+	height: 100%;
+	color: #000;
+	text-align: center;
+}
+
+.nav-item img{
+	display: block;
+	width: 76px;
+	height: 65px;
+	margin: 40px auto 0;
+	padding-bottom: 20px;
+	transition: margin 1s;
+}
+
+.nav-item img:hover{
+	margin: 30px auto 10px;
+}
+
+.nav-item p{
+	font-size: 18px;
+}
+
+.nav-item small{
+	display: block;
+	width: 183px;
+	margin: 10px auto 0;
+	font-size: 12px;
+	line-height: 18px;
+	color: #b0b3b4;
+}
+/* home-nav END*/
+
+#hand-lianjia{
+	height: 524px;
+	width: 100%;
+	background-image: url(../images/bg-app.jpg);
+	background-position: center top;
+}
+
+#h-l-title{
+	padding-top: 85px;
+	width: 286px;
+	height: 118px;
+	background-image: url(../images/spriteV2_new.png);
+	background-position: -448px -294px;
+	background-clip: content-box;
+}
+
+#hand-lianjia p{
+	margin-top: 20px;
+	width: 479px;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+#download{
+	width: 479px;
+	height: 104px;
+	margin-top: 38px;
+	background-image: url(../images/app.png);
+	background-repeat: no-repeat;
+	background-position: 148px center;
+	-webkit-background-size: 104px 104px;
+	background-size: 104px 104px;
+}
+
+#download a{
+	display: block;
+	height: 44px;
+	width: 134px;
+}
+
+#ios{
+	background-image: url(../images/spriteV2_new.png);
+	background-position: -316px -139px;
+}
+
+#ios:hover{
+	background-position: -20px -139px;	
+}
+
+#android{
+	margin-top: 16px;
+	background-image: url(../images/spriteV2_new.png);
+	background-position: -316px -197px;
+}
+
+#android:hover{
+	background-position: -20px -197px;
+}
+/* hand-lianjia END*/
+
+
+#second-hand{
+	height: 489px;
+	width: 100%;
+}
+
+.title{
+	height: 48px;
+	width: 100%;
+	padding-top: 50px;
+}
+
+#s-h-title div{
+	height: 30px;
+	width: 248px;
+	background-image: url(../images/spriteV2_new.png);;
+	background-position: -19px -94px;
+}
+
+.title p{
+	margin-top: 10px;
+	color: #888;
+}
+
+.title p a{
+	float: right;
+	color: black;
+}
+
+.title p a:hover,.title p a:active{
+	text-decoration: underline;
+}
+
+#s-h-list{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.list-item{
+	width: 250px;
+}
+
+.list-item div{
+	width: 100%;
+	height: 264px;
+	margin: 30px 0 20px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.list-item div img{
+	width: 100%;
+}
+
+.list-item div p{
+	margin-top: 15px;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #000;
+}
+
+.list-item div p span{
+	font-size: 12px;
+	color: #999;
+}
+
+.list-item div i{
+	display: block;
+	position: relative;
+	bottom: 100px;
+	width: 66px;
+	height: 30px;
+	background-color: #394043;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+}
+
+.list-item>p{
+	color: #aaa;
+	font-size: 12px;
+}
+
+/* second-hand END*/
+
+#community{
+	height: 500px;
+	width: 100%;
+	background-color: #eeeef1;
+}
+
+#c-title div{
+	height: 30px;
+	width: 187px;
+	background-image: url(../images/community.png);;
+	background-size: 100% 100%;
+}
+
+.list{
+	display: flex;
+	width: 100%;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+
+.list a{
+	width: 350px;
+	height: 284px;
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	color: #000;
+}
+
+.list a div{
+	width: 100%;
+	height: 200px;
+}
+
+#community .list div{
+	background-image: url(../images/community-item.jpg);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-position: center center;
+	transition: background-size 0.5s;
+}
+
+#community .list a:hover div{
+	background-size: 102% 102%;
+}
+
+#community .list a h6{
+	margin: 20px 20px 10px;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+#community .list a p{
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#community .list a p span{
+	float: right;
+	color: #888c8e;
+	margin-right: 25px;
+}
+/* community END*/
+
+#new-house{
+	height: 472px;
+	width: 100%;
+}
+
+#n-h-title div{
+	height: 30px;
+	width: 158px;
+	background-image: url(../images/spriteV2_new.png);
+	background-position: -20px -56px;
+}
+
+#new-house .list a{
+	box-shadow: none;
+	height: 260px;
+}
+
+#new-house .list a div{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/new-house.jpg);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-position: center center;
+	transition: background-size 0.5s;
+}
+
+#new-house .list a:hover div{
+	background-size: 102% 102%;
+}
+
+#new-house .list a div h3{
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+}
+
+#new-house .list a div p{
+	margin-top: 20px;
+	color: #fff2ab;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+}
+
+#new-house .list a div span{
+	display: block;
+	width: 96px;
+	height: 34px;
+	margin-top: 40px;
+	background-color: #fff2ab;
+	font-size: 18px;
+	line-height: 34px;
+	text-align: center;
+	font-weight: bold;
+}
+/* new-house END*/
+
+#s-truth{
+	width: 100%;
+	height: 240px;
+	background-image: url(../images/truth-bg.jpg);
+	background-position: center center;
+}
+
+#s-truth .wrapper{
+	height: 115px;
+	padding-top: 60px;
+	background-image: url(../images/spriteV2_new.png);
+	background-position: -19px -254px;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-clip: content-box;
+}
+
+#s-truth p{
+	margin-left: 600px;
+	font-size: 16px;
+	line-height: 25px;
+	color: #fff;
+}
+
+#search{
+	margin-top: 20px;
+	margin-left: 600px;
+	height: 43px;
+	width: 550px;
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+	overflow: hidden;
+}
+
+#search input{
+	height: 29px;
+	width: 480px;
+	padding: 7px 12px;
+}
+
+#search div{
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	left: 10px;
+	height: 18px;
+	width: 18px;
+	background-image: url(../images/spriteV2_new.png);
+	background-position: -407px -20px;
+	cursor: pointer;
+}
+/* s-truth END*/

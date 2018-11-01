@@ -1,0 +1,1023 @@
+		.content{
+			width: 100%;
+			height:4200px;
+			font-size: 14px;
+    		background: #eee;
+		}
+		.header{
+			width: 100%;
+			height: 650px;
+			/*background-color: #eee;*/
+		}
+		.header .top{
+			width: 100%;
+			height: 108px;
+			background-color: #ddd;
+		}
+		.header .top .nav{
+			width: 100%;
+			height: 40px;
+			background-color: #ccc;
+		}
+		.header .top .nav ul{
+			width: 1150px;
+			height: 40px;
+			background-color: #bbb;
+			margin:0 auto;
+		}
+		.header .top .nav ul li{
+			float: left;
+			/*clear: both;*/
+			margin-left: 35px;
+			list-style: none;
+			color: #fff;
+		}
+		.header .top .nav ul li a{
+			color: #fff;
+		}
+		.header .top .nav ul li div{
+			margin-left: 120px;
+		}
+		.header  .top .search_nav{
+			width: 100%;
+			height: 68px;
+			background-color: #ccc;
+		}
+		.header  .top .search_nav .wrapper{ 
+			width: 1150px;
+			height: 68px;
+			background-color: #aaa;
+			margin: 0 auto;
+		}
+		.header  .top .search_nav .wrapper .left{
+			width: 342px;
+			height: 68px;
+			/*background-color: #999;*/
+			float: left;
+			line-height: 68px;
+			clear: both;
+			display: inline-block;			
+		}		
+		.header  .top .search_nav .wrapper .left .logo img{
+			width: 150px;
+			height: 50px;
+			margin: 9px;
+			display: inline-block;
+
+		} 
+		.header  .top .search_nav .wrapper .left ul{
+			/*width: 150	px;*/
+			height: 68px;
+			float: right;
+			display: inline-block;
+			margin: 6px 0;
+			padding-left: 0;
+			/*clear: both;*/
+		}
+		.header  .top .search_nav .wrapper .left ul li{
+			float: left;
+			margin-left: 5px;
+			font-size: 23px;
+			font-weight: 600;
+			font-family: kaiti;
+			color: #fff;
+		}
+		.header  .top .search_nav .wrapper .left ul li a{
+			color: #fff;
+		}
+		.header  .top .search_nav .wrapper .right{
+			width: 281px;
+			height: 68px;
+			/*background-color: #999;*/
+			float: right;
+			/*clear: both;*/
+		} 
+		.header  .top .search_nav .wrapper .right input{
+			width: 281px;
+			height: 40px;
+			margin: 14px 0;
+			background-image: url(../img/放大镜白.png);
+			background-repeat: no-repeat;
+			background-position: 230px;
+			background-size: 13%;
+			border: none;
+			outline: none;
+			background-color:#eee;
+			/*clear: both;*/
+		}
+		.header .hero{
+			width: 100%;
+			height: 650px;
+			margin-top: -108px;
+			/*background-size: 135%;*/
+
+		}
+		.header .hero .picture{
+			width: 100%;
+			height: 650px;
+			background-image: url(../img/自在毕业季.jpg);
+			background-repeat: round;
+			background-size: cover;
+		}
+		.header .search{
+			width: 614px;
+			height: 102px;
+			margin-top: -200px;
+			/*background-color: yellow;	*/
+		}
+		.header .search input{
+			width: 500px;
+			height: 50px;
+			margin: 2px 0;
+			border: none;
+			outline: none;	
+		}
+		.header .search button{
+			width: 114px;
+			height: 50px;
+			margin: 2px 0;
+			background-color: #40a9f6;
+			border: none;
+			/*border-radius: 10%;*/
+			float: right;
+			font-size: 23px;
+			color: #fff;
+		}
+		.header .search .animation{
+			width: 614px;
+			height: 52px;
+		}
+		.header .search .animation ul{
+			padding: 0;
+			margin:11px 0; 
+		}
+		.header .search .animation ul li{
+			height: 30px;
+			float: left;
+			padding: 5px;
+			display: flex;	
+			margin-left: 30px;
+			/*font-size: 16px;*/
+			background-color: rgba(0,0,0,.50);
+			border-radius: 20%;
+		}
+		.header .search .animation ul li a{
+			color: #fff;
+		}
+		.hot_city{
+			width: 1150px;
+			height: 890px;
+			/*background-color: red;*/
+		}	
+		.hot_city .head{
+			padding-top: 50px;
+    		padding-bottom: 40px;   		
+		}
+		.hot_city .head h2{
+    		line-height: 1;
+    		font-weight: 600;
+    		font-size: 30px;
+    		color: #333;
+    		display: inline-block;    		
+		}
+		.hot_city .hainan{
+			width: 1150px;
+			height: 350px;
+			/*background-color: red;*/
+		}
+		.hot_city .hainan .left{
+			float: left;
+			width: 628px;
+			height: 350px;
+			background-color: #fff;
+		}
+		.hot_city .hainan .left img{
+			width: 341px;
+			height: 337px;
+			margin: 6.5px 3px;
+		}
+		.hot_city .hainan .left .info_box{
+			width: 246px;
+			height: 338px;
+			margin: 6px 8px;
+			/*background-color: #ddafc4;*/
+			float: right;
+		}
+		.hot_city .hainan .left .info_box h3{
+			font-size: 40px;
+			color: #000;
+		}
+		.hot_city .hainan .left .info_box span{
+			display: block;
+    		padding-top: 17px;
+    		color: #999;
+		}
+		.hot_city .hainan .left .info_box .weather_info_box{
+			width: 246px;
+			height: 89px;
+			/*background-color: blue;*/
+			margin-top: 20px;
+		}
+		.hot_city .hainan .left .info_box .weather_info_box .weather_title{
+			font-size: 14px;
+    		/*color: #333;*/
+    		line-height: 1;
+   			padding-top: 18px;
+		}
+		.hot_city .hainan .left .info_box .weather_info_box .weather_body{
+			width: 246px;
+			height: 32px;
+			/*background-color: #999;*/
+			margin-top: 5px;
+			float: left;
+		}
+		.hot_city .hainan .left .info_box .weather_info_box .weather_body p{
+			font-family: HiraginoSansGB-W3;
+   			font-size: 12px;
+    		color: #333;
+    		float: right;
+		}
+		.hot_city .hainan .left .info_box .weather_info_box .weather_body .temperature{
+			width: 87px;
+			height: 32px;
+			/*background-color: #444;*/
+			float: left;
+			margin-right: 30px;
+			background-image: url(../img/温度.png);
+			background-repeat: no-repeat;
+			background-size: 19%;
+		}
+		.hot_city .hainan .left .info_box .weather_info_box .weather_body .humidity{
+			width: 87px;
+			height: 32px;
+			/*background-color: #444;*/
+			float: left;
+			background-image: url(../img/湿度.png);
+			background-repeat: no-repeat;
+			background-size: 25%;
+		}
+		.hot_city .hainan .right{
+			width: 510px;
+			height: 350px;
+			/*background-color: #bbb;*/
+			float: right;
+		}
+		.hot_city .hainan .right .add_box{
+			width: 240px;
+			height: 81.5px;
+			background-color: #fff;
+			margin-left: 10px;
+			margin-top: 5px;
+			float: left;
+			text-align: center;
+		}
+		.hot_city .hainan .right .add_box2{
+			width: 490px;
+			height: 81.5px;
+			background-color: #fff;
+			margin-left: 10px;
+			margin-top: 5px;
+			float: left;
+			text-align: center;
+
+		}
+		.hot_city .hainan .right .add_box2 h4{
+			color: #000;
+			font-size: 20px;
+    		font-weight: 600;
+   			line-height: 80px;
+		}
+		.hot_city .hainan .right .add_box a h4{
+     		font-weight: 300;
+    		line-height: 50px;
+    		left: 16px;
+    		top: 16px;
+    		font-size: 30px;
+    		color: #000;
+		}
+		.hot_city .hainan .right .add_box a span{
+     		left: 16px;
+    		bottom: 16px;
+    		font-size: 12px;
+    		color: #999;
+		}
+		.hot_city .yunnan{
+			width: 1150px;
+			height: 350px;
+			/*background-color: yellow;*/
+			margin-top: 5px;
+		}
+		.hot_city .yunnan .left{
+			float: left;
+			width: 628px;
+			height: 350px;
+			background-color: #fff;	
+		}
+		.hot_city .yunnan .left img{
+			width: 341px;
+			height: 337px;
+			margin: 6.5px 3px;
+		}
+		.hot_city .yunnan .left .info_box{
+			width: 246px;
+			height: 338px;
+			margin: 6px 8px;
+			/*background-color: #ddafc4;*/
+			float: right;
+		}
+		.hot_city .yunnan .left .info_box h3{
+			font-size: 40px;
+			color: #000;
+		}
+		.hot_city .yunnan .left .info_box span{
+			display: block;
+    		padding-top: 17px;
+    		color: #999;
+		}
+		.hot_city .yunnan .left .info_box .weather_info_box{
+			width: 246px;
+			height: 89px;
+			margin-top: 20px;
+		}
+		.hot_city .yunnan .left .info_box .weather_info_box .weather_title{
+			font-size: 14px;
+    		color: #333;
+    		line-height: 1;
+   			padding-top: 18px;
+		}
+		.hot_city .yunnan .left .info_box .weather_info_box .weather_body{
+			width: 246px;
+			height: 32px;
+			/*background-color: #999;*/
+			margin-top: 5px;
+			float: left;
+		}
+		.hot_city .yunnan .left .info_box .weather_info_box .weather_body p{
+			font-family: HiraginoSansGB-W3;
+   			font-size: 12px;
+    		color: #333;
+    		float: right;
+		}
+		.hot_city .yunnan .left .info_box .weather_info_box .weather_body .temperature{
+			width: 87px;
+			height: 32px;
+			/*background-color: #444;*/
+			float: left;
+			margin-right: 30px;
+			background-image: url(../img/温度.png);
+			background-repeat: no-repeat;
+			background-size: 19%;
+		}
+		.hot_city .yunnan .left .info_box .weather_info_box .weather_body .humidity{
+			width: 87px;
+			height: 32px;
+			/*background-color: #444;*/
+			float: left;
+			background-image: url(../img/湿度.png);
+			background-repeat: no-repeat;
+			background-size: 25%;
+		}
+		.hot_city .yunnan .right{
+			width: 510px;
+			height: 350px;
+			/*background-color: #bbb;*/
+			float: right;
+		}
+		.hot_city .yunnan .right .add_box{
+			width: 490px;
+			height: 81.5px;
+			background-color: #fff;
+			margin-left: 10px;
+			margin-top: 5px;
+			float: left;
+			text-align: center;
+		}
+		.hot_city .yunnan .right .add_box2{
+			width: 490px;
+			height: 81.5px;
+			background-color: #fff;
+			margin-left: 10px;
+			margin-top: 5px;
+			float: left;
+			text-align: center;
+			display: flex;
+		}
+		.hot_city .yunnan .right .add_box2 h4{
+			color: #000;
+			font-size: 20px;
+    		font-weight: 600;
+   			line-height: 80px;
+   			color: #000;	
+		}
+		.hot_city .yunnan .right .add_box a h4{
+     		font-weight: 300;
+    		line-height: 50px;
+    		left: 16px;
+    		top: 16px;
+    		font-size: 30px;
+    		color: #000;
+		}
+		.hot_city .yunnan .right a span{
+     		left: 16px;
+    		bottom: 16px;
+    		font-size: 12px;
+    		color: #999;
+    	}
+    	.lvju_life{
+    		width:1150px;
+    		height: 458px;
+    		background-color: #fff;
+    		margin-top: -53px;
+    	}
+     	.lvju_life .head{
+     		padding-top: 50px;
+    		padding-bottom: 40px;
+    	}
+    	.lvju_life .head h2{
+    		line-height: 1;
+    		font-weight: 600;
+    		font-size: 30px;
+    		color: #333;
+    		display: inline-block;
+
+    	}
+    	.lvju_life .head a{
+    		float: right;
+    	}    	  
+     	.lvju_life .slide{
+     		width: 1150px;
+     		height: 316px;
+     		/*background-color: #ddd;*/
+    	}  
+     	.lvju_life .slide .animation{
+     		width: 281.95px;
+     		height: 333px;
+     		/*background-color: #aaa;*/
+     		/*display: inline-block;*/
+     		/*border: 0.1px solid #333;*/
+     		background-color: #fff;
+     		float: left;
+     		margin-left: 3px;	
+    	} 
+     	.lvju_life .slide .animation img{
+     		margin-left: 0.5px;
+     		margin-top: 2px;	
+    	} 
+    	.lvju_life .slide .animation .ingfor_box{
+    		width: 280px;
+    		height: 140px;
+    		border: 1px solid #333;
+    		clear: both;
+    	}	
+    	.lvju_life .slide .animation .ingfor_box a{
+    		color: #000;
+    	}	
+    	.lvju_active{
+    		width: 1150px;
+    		height: 824.63px;
+    		background-color: #fff;
+    		margin-top: 20px;
+    	}
+    	.lvju_active .head{
+    		padding-top: 50px;
+    		padding-bottom: 40px
+    	}
+    	.lvju_active .head h2{
+    		line-height: 1;
+    		font-weight: 600;
+   		 	font-size: 30px;
+    		color: #333;
+    		display: inline-block;
+    	} 
+    	.lvju_active .carousel{
+    		width: 1150px;
+    		height: 450px;
+    		background-image: url(../img/智慧路.jpg);
+    		background-size: cover;
+    	} 
+    	.lvju_active .activities{
+    		width: 1150px;
+    		height: 223px;
+    		margin-top: 10px;
+    	} 
+     	.lvju_active .activities .left{
+    		width: 570px;
+    		height: 223px;
+    		background-image: url(../img/度假.jpg);
+    		background-size: cover;
+    		float: left;
+    	}
+     	.lvju_active .activities .right{
+    		width: 570px;
+    		height: 223px;
+    		background-image: url(../img/半岛.jpg);
+    		background-size: cover;
+    		float: right;
+    	}    	    	   	
+    	.lvju_change{
+    		width: 1150px;
+    		height: 262px;
+    		background-color: #fff;
+    		margin-top: 20px;
+    	}
+    	.lvju_change .head{
+    		padding-top: 50px;
+    		padding-bottom: 40px
+    	}
+    	.lvju_change .head h2{
+    		line-height: 1;
+    		font-weight: 600;
+   		 	font-size: 30px;
+    		color: #333;
+    		display: inline-block;
+    	} 
+    	.lvju_change .body{
+    		width: 1150px;
+    		height: 120px;
+    	}
+    	.lvju_change .body .chanage1{
+    		width: 222px;
+    		height: 120px;
+    		float: left;
+    		margin-left: 7px;
+    		background-image: url(../img/一线海景.jpg);
+    		background-size: cover;
+    	}
+    	.lvju_change .body .chanage2{
+    		width: 222px;
+    		height: 120px;
+    		float: left;
+    		margin-left: 7px;
+    		background-image: url(../img/半岛双海.jpg);
+    		background-size: cover;
+    	}
+    	.lvju_change .body .chanage3{
+    		width: 222px;
+    		height: 120px;
+    		float: left;
+    		margin-left: 7px;
+    		background-image: url(../img/阳光之城.jpg);
+    		background-size: cover;
+    	}
+    	.lvju_change .body .chanage4{
+    		width: 222px;
+    		height: 120px;
+    		float: left;
+    		margin-left: 7px;
+    		background-image: url(../img/倚江瞰海.jpg);
+    		background-size: cover;
+    	}
+    	.lvju_change .body .chanage5{
+    		width: 222px;
+    		height: 120px;
+    		float: left;
+    		margin-left: 7px;
+    		background-image: url(../img/庭院别墅.jpg);
+    		background-size: cover;
+    	}
+    	.all_look{
+    		width: 1150px;
+    		height: 650px;
+    		background-color: #fff;
+    		margin-top: 20px;
+    	}
+    	.all_look .head{
+    		padding-top: 50px;
+    		padding-bottom: 40px
+    	}
+    	.all_look .head h2{
+    		line-height: 1;
+    		font-weight: 600;
+   		 	font-size: 30px;
+    		color: #333;
+    		display: inline-block;
+    	}
+    	.all_look .body{
+    		width: 1150px;
+    		height: 500px;
+    	} 	
+    	.all_look .body .content{
+    		width: 1150px;
+    		height: 216px;
+    		/*margin-top: 5px;*/
+    	}
+    	.all_look .body .content .card_left{
+    		width: 290px;
+    		height: 215px;
+    		background-image: url(../img/大理的小院子.jpg);
+    		background-size: cover;
+    		margin-top: 5px;
+    		float: left;
+    		margin:0.5px 0;
+    	}
+    	.all_look .body .content .card_center{
+    		width: 600px;
+    		height: 215px;
+    		margin-top: 5px;
+    		float: left;
+    		margin:0.5px 0;
+    		margin-left: 20px;	
+    	}
+    	.all_look .body  a{
+    		color:#000;	
+    	}
+    	.all_look .body .content .card_center .card-attention-box{
+		    margin-bottom: 24px;
+    	}
+    	.all_look .body .content .card_center .card-attention-box h2{
+    		margin: 0;
+    		padding: 0;
+    		font-family: HiraginoSansGB-W6;
+    		font-size: 20px;
+		    color: #333;
+		    width: 485px;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		    line-height: 24px;
+		    margin-bottom: 24px;
+    	}
+    	.all_look .body .content .card_center .card-name-box{
+    		width:715px;
+    		height: 35px;
+    	}
+    	.all_look .body .content .card_center .card-name-box p{
+    		float: left;
+		    font-size: 18px;
+		    color: #333;
+		    line-height: 24px;
+		    margin-right: 11px;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		    font-family: HiraginoSansGB-W6;
+		    max-width: 162px;
+    	}
+    	.all_look .body .content .card_center .card-name-box span{
+    		float: left;
+		    background: #6bbe1a;
+		    border-radius: 2px;
+		    font-size: 12px;
+		    padding: 6px 8px;
+		    color: #fff;
+		    line-height: 1;
+		    margin-right: 11px;
+		    font-family: HiraginoSansGB-W6;
+    	}
+    	.all_look .body .content .card_center .card-comment-box {
+    		float: left;
+    		font-size: 14px;
+		    color: #333;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		    /*padding-bottom: 13px;*/
+		    line-height: 15px;
+		    width: 410px;
+		}
+    	.all_look .body .content .card_center .card-comment-address{
+    		float: left;
+    		margin-top: 10px;
+    		font-size: 14px;
+		    color: #333;
+		    max-width: 100%;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		    clear: both;
+    	}
+    	.all_look .body .content .card_center .card-comment-address .card-position{
+    		width: 10px;
+		    height: 13px;
+    		background: url(../img/地址.png) no-repeat;
+    		float: left;
+		    background-size: cover;
+		    margin-right: 10px;
+		    margin-top: 4px;
+    	}
+    	.all_look .body .content .card_center .card-sign-box{
+    		overflow: hidden;
+    		height: 30px;
+    		margin-top: 70px;
+    	}
+    	.all_look .body .content .card_center .card-sign-box
+    	 .card-man{
+    	 	background: #edf0f3;
+		    padding: 9px 11px;
+		    font-size: 12px;
+		    color: #90a6b8;
+    	 }
+    	.all_look .body .content .card_price{
+    		width: 219.8px;
+    		height: 55px;
+    		margin-top: 5px;
+    		float: right;
+    		margin:80px 2px;
+    	}
+    	.all_look .body .content .card_price .price{
+    		display: block;
+    		margin-bottom: 8px;
+    	}
+    	.all_look .body .content .card_price .price i{
+    		font-style: normal;
+		    font-size: 14px;
+		    color: #d44d38;
+    	}
+    	.all_look .body .content .card_price .price span{
+    		font-size: 28px;
+		    color: #d44d38;
+		    font-family: Tahoma-Bold;
+    	}
+    	.all_look .body .content .card_price .room-infor{
+    		 font-family: HiraginoSansGB-W3;
+		    font-size: 12px;
+		    color: #666;
+		    margin-left: -20px;
+    	}
+
+    	.all_look .body .content1{
+    		width: 1150px;
+    		height: 216px;
+    		/*margin-top: 5px;*/
+    	}
+    	.all_look .body .content1 .card_left{
+    		width: 290px;
+    		height: 215px;
+    		background-image: url(../img/大理的小院子.jpg);
+    		background-size: cover;
+    		margin-top: 5px;
+    		float: left;
+    		margin:0.5px 0;
+    	}
+    	.all_look .body .content1 .card_center{
+    		width: 600px;
+    		height: 215px;
+    		margin-top: 5px;
+    		float: left;
+    		margin:0.5px 0;
+    		margin-left: 20px;
+    	}
+    	.all_look .body .content1 .card_center .card-attention-box{
+		    margin-bottom: 24px;
+    	}
+    	.all_look .body .content1 .card_center .card-attention-box h2{
+    		margin: 0;
+    		padding: 0;
+    		font-family: HiraginoSansGB-W6;
+    		font-size: 20px;
+		    color: #333;
+		    width: 485px;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		    line-height: 24px;
+		    margin-bottom: 24px;
+    	}
+    	.all_look .body .content1 .card_center .card-name-box{
+    		width:715px;
+    		height: 35px;
+    	}
+    	.all_look .body .content1 .card_center .card-name-box p{
+    		float: left;
+		    font-size: 18px;
+		    color: #333;
+		    line-height: 24px;
+		    margin-right: 11px;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		    font-family: HiraginoSansGB-W6;
+		    max-width: 162px;
+    	}
+    	.all_look .body .content1 .card_center .card-name-box span{
+    		float: left;
+		    background: #6bbe1a;
+		    border-radius: 2px;
+		    font-size: 12px;
+		    padding: 6px 8px;
+		    color: #fff;
+		    line-height: 1;
+		    margin-right: 11px;
+		    font-family: HiraginoSansGB-W6;
+    	}
+    	.all_look .body .content1 .card_center .card-comment-box {
+    		float: left;
+    		font-size: 14px;
+		    color: #333;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		    /*padding-bottom: 13px;*/
+		    line-height: 15px;
+		    width: 410px;
+		}
+    	.all_look .body .content1 .card_center .card-comment-address{
+    		float: left;
+    		margin-top: 10px;
+    		font-size: 14px;
+		    color: #333;
+		    max-width: 100%;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		    clear: both;
+    	}
+    	.all_look .body .content1 .card_center .card-comment-address .card-position{
+    		width: 10px;
+		    height: 13px;
+    		background: url(../img/地址.png) no-repeat;
+    		float: left;
+		    background-size: cover;
+		    margin-right: 10px;
+		    margin-top: 4px;
+    	}
+    	.all_look .body .content1 .card_center .card-sign-box{
+    		overflow: hidden;
+    		height: 30px;
+    		margin-top: 70px;
+    	}
+    	.all_look .body .content1 .card_center .card-sign-box
+    	 .card-man{
+    	 	background: #edf0f3;
+		    padding: 9px 11px;
+		    font-size: 12px;
+		    color: #90a6b8;
+    	 }
+    	.all_look .body .content1 .card_price{
+    		width: 219.8px;
+    		height: 55px;
+    		margin-top: 5px;
+    		float: right;
+    		margin:80px 2px;
+    	}
+    	.all_look .body .content1 .card_price .price{
+    		display: block;
+    		margin-bottom: 8px;
+    	}
+    	.all_look .body .content1 .card_price .price i{
+    		font-style: normal;
+		    font-size: 14px;
+		    color: #d44d38;    	}
+    	.all_look .body .content1 .card_price .price span{
+    		font-size: 28px;
+		    color: #d44d38;
+		    font-family: Tahoma-Bold;
+    	}
+    	.all_look .body .content1 .card_price .room-infor{
+    		 font-family: HiraginoSansGB-W3;
+		    font-size: 12px;
+		    color: #666;
+		    margin-left: -20px;
+    	}
+/*    	.all_look .body .content1{
+    		width: 1150px;
+    		height: 216px;
+    		margin-top: 5px;
+    	}
+    	.all_look .body .content1 .card_left{
+    		width: 290px;
+    		height: 215px;
+    		background-image: url(./img/外滩.jpg);
+    		background-size: cover;
+    		margin-top: 5px;
+    		float: left;
+    		margin:0.5px 0;
+    	}
+    	.all_look .body .content1 .card_center{
+    		width: 695px;
+    		height: 215px;
+    		background-color: yellow;
+    		margin-top: 5px;
+    		float: left;
+    		margin:0.5px 0;
+    		margin-left: 5px;
+    	}
+    	.all_look .body .content1 .card_price{
+    		width: 152.39px;
+    		height: 55px;
+    		background-color: yellow;
+    		margin-top: 5px;
+    		float: right;
+    		margin:80px 2px;
+    	}
+    	.all_look .body .content1 .card_price {
+
+    	}*/
+    	.all_look .body .last_more{
+    		width: 1150px;
+    		height: 80px;
+    		margin-top: 5px;
+    		display: flex;
+    	}
+    	.all_look .body .last_more p{
+    		background-color: #f5f5f5;
+    		width: 100%;
+		    font-family: HiraginoSansGB-W6;
+		    font-size: 18px;
+		    color: #333;
+		    letter-spacing: 0;
+		    text-align: center;
+    	}
+    	.footer{
+    		width: 100%;
+    		height: 426px;
+    		background-image: url(../img/页脚.jpg);
+    		background-size: cover;
+    		margin-top: 20px;
+    	}
+    	.footer .head{
+    		width: 1150px;
+    		height: 275px;
+    	}
+    	.footer .head .f_title{
+    		width: 1150px;
+    		height: 76px;
+
+    		border-bottom: 1px solid #393939;
+		    line-height: 75px;
+		    margin: 0;
+    	}
+    	.footer .head .f_title .fl{
+    		float: left;
+    	}
+    	.footer .head .f_title .fl ul li{
+    		float: left;
+    		margin-left: 20px;
+    	}
+    	.footer .head .f_title .fl ul li a{
+    		color: #fff;
+    	}
+    	.footer .head .f_title .fr{
+    		float: right;
+    		color: #7dcfa0;
+    	}
+    	.footer .head .link_box{
+    		width: 1150px;
+    		height: 176px;
+
+    		padding: 13px 0 20px;
+		    border-bottom: 1px solid #393939;
+		    background: none;
+		}
+    	.footer .head .link_box .fl{
+    		margin: 0;
+    		padding: 0;
+    		margin-left: 20px;
+    		width: 870px;
+    		height: 129px;
+    	}
+    	.footer .head .link_box .fl .tab{
+    		width: 870px;
+    		height: 40px;
+    	}
+ 		.footer .head .link_box .fl .tab span{
+		    padding: 8px 10px;
+		    float: left;
+		    margin-right: 12px;
+		    cursor: pointer;
+		    font-size: 12px;
+		    transition: all .3s ease-in-out;
+    	}
+    	.footer .head .link_box .fl .tab span {
+    		color: #888c8e;
+    	}
+    	.footer .head .link_box .fl .tab span:hover{
+		    background: #394043;
+		    color: #fff;
+		}
+		.footer .head .link_box .fl .link_last{
+			display: block;
+		}
+		.footer .head .link_box .fl .link_last div{
+			width: 870px;
+			height: 59px;
+			min-height: 89px;
+    		overflow: hidden
+		}
+		.footer .head .link_box .fl .link_last div dd{
+			width: 870px;
+			height: 59px;
+		}
+		.footer .head .link_box .fl .link_last div dd a{
+		    color: #888c8e;
+		    font-size: 12px;
+		    display: inline-block;
+		    margin: 10px 10px 0 0;
+		    cursor: pointer;
+		}
+		.footer .head .link_box .fr{
+			width: 139px;
+			height: 139px;
+			background-image: url(../img/二维码.png);
+			background-size: cover;
+			float: right;
+			margin-top: -120px;
+		}
+		.footer .bottom{
+			width: 1027px;
+			height: 47.5px;
+			margin-top: 20px;
+			 color: #888c8e;
+		    font-size: 12px;
+		    line-height: 20px;
+		}

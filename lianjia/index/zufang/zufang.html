@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>链家网-租房</title>
+	<link rel="icon" href="../title.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./css/content.css">
+	<link rel="stylesheet" href="../common/footer/footer.css">
+	<link rel="stylesheet" href="../common/sidebar/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../common/sidebar/sidebar.css">
+	<link rel="stylesheet" href="../common/footer/reset.css">
+	<link rel="stylesheet" href="../common/login/css/login.css">
+</head>
+<body>
+	<div class="container1">
+		<div class="header">
+			<div class="header1">
+				<div class="logo"><a href="../index/index.html"><img src="./images/logo.png" alt=""></a></div>
+				<div class="nav">
+						<ul>
+							<li><a href="../ershoufang/ershoufang.html"><span>二手房</span></a></li>
+							<li><a href="../xinfang/xinfang.html"><span>新房</span></a></li>
+							<li id="one"><a href="#"><span>租房</span></a></li>
+							<li><a href="#"><span>海外</span></a></li>
+							<li><a href="#"><span>小区</span></a></li>
+							<li><a href="#"><span>经纪人</span></a></li>
+							<li><a href="#"><span>指南</span></a></li>
+							<li><a href="#"><span>房价</span></a></li>
+							<li><a href="#"><span>工具</span></a></li>
+							<li><a href="#"><span>经验</span></a></li>
+							<li><a href="../maifang/maifang.html"><span>发布房源</span></a></li>
+							<li><a href="#"><span>企业汇</span></a></li>
+						</ul>
+						<div class="register">
+							<a href="#">注册</a>
+							<span>|</span>
+							<a href="#" id="user-login">登录</a>
+						</div>	
+				</div>
+			</div>	
+		</div>
+		<div class="search">
+			<div class="search10">
+				<div class="select1">
+					<select name="zufang" id="">
+						<option value="租房">租房</option>
+						<option value="二手房">二手房</option>
+						<option value="小区">小区</option>
+						<option value="成交">成交</option>
+						<option value="新房">新房</option>
+						<option value="经纪人">经纪人</option>
+					</select>
+					<input type="text" class="search" placeholder="请输入区域，商圈或小区名开始找房">
+					<div class="search1"><a href="#">搜索</a></div>
+				</div>
+				<div class="search2"><img src="./images/location.png" alt=""><a href="#">地图找房</a></div>
+			</div>
+		</div>
+		<div class="main">
+				<div class="menu">
+					<div class="menu-header">
+						<div class="menu-header1">
+							<img src="./images/location.png" alt="">
+							<a href="#">链家网北京站</a>
+							<span>></span>
+							<span>北京租房</span>
+						</div>
+					</div>
+					<div class="menu1">
+						<div class="menu1-1"><a href="#">全部租房</a></div>
+						<div class="menu1-2"><a href="#">地铁租房</a></div>
+						<div class="menu1-3"><span>真实房源，假一赔百元，不封顶！</span></div>
+					</div>
+					<div class="menu2">	
+						<div>
+							<ul>
+								<li><span>区域:</span></li>
+								<li class="green"><a href="#">不限</a></li>
+								<li><a href="#">东城</a></li>
+								<li><a href="#">西城</a></li>
+								<li><a href="#">朝阳</a></li>
+								<li><a href="#">海淀</a></li>
+								<li><a href="#">丰台</a></li>
+								<li><a href="#">石景山</a></li>
+								<li><a href="#">通州</a></li>
+								<li><a href="#">昌平</a></li>
+								<li><a href="#">大兴</a></li>
+								<li><a href="#">亦庄开发区</a></li>
+								<li><a href="#">顺义</a></li>
+								<li><a href="#">房山</a></li>
+								<li><a href="#">门头沟</a></li>
+								<li><a href="#">平谷</a></li>
+								<li><a href="#">怀柔</a></li>
+								<li><a href="#">密云</a></li>
+								<li><a href="#">延庆</a></li>
+								<li><a href="#">燕郊</a></li>
+								<li><a href="#">香河</a></li>
+							</ul>
+							<ul>
+								<li><span>租金:</span></li>
+								<li class="green"><a href="#">不限</a></li>
+								<li><a href="#">2000元以下</a></li>
+								<li><a href="#">2000-2500元</a></li>
+								<li><a href="#">2500-3000元</a></li>
+								<li><a href="#">3000-4000元</a></li>
+								<li><a href="#">4000-5000元</a></li>
+								<li><a href="#">5000-6000元</a></li>
+								<li><a href="#">6000-7000元</a></li>
+								<li><a href="#">7000-8000元</a></li>
+								<li><a href="#">8000-10000元</a></li>
+								<li><a href="#">10000元以上</a></li>
+								<li><input type="text">- <input type="text">元</li>
+							</ul>	
+							<ul>
+								<li><span>面积:</span></li>
+								<li class="green"><a href="#">不限</a></li>
+								<li><a href="#">30平以下</a></li>
+								<li><a href="#">30-50平</a></li>
+								<li><a href="#">50-70平</a></li>
+								<li><a href="#">70-90平</a></li>
+								<li><a href="#">90-120平</a></li>
+								<li><a href="#">120-140平</a></li>
+								<li><a href="#">140-160平</a></li>
+								<li><a href="#">160-200平</a></li>
+								<li><a href="#">200平以上</a></li>
+								<li><input type="text">- <input type="text">平</li>
+							</ul>
+							<ul>
+								<li><span>房型:</span></li>
+								<li class="green"><a href="#">不限</a></li>
+								<li><a href="#">一室</a></li>
+								<li><a href="#">二室</a></li>
+								<li><a href="#">三室</a></li>
+								<li><a href="#">四室</a></li>
+								<li><a href="#">五室及以上</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="menu3">
+						<div>
+							<ul>
+								<li><span>筛选:</span></li>
+								<li><select name="chaoxiang" id="">
+									<option value="朝向">朝向</option>
+									<option value="朝东">朝东</option>
+									<option value="朝南">朝南</option>
+									<option value="朝西">朝西</option>
+									<option value="朝北">朝北</option>
+									<option value="南北">南北</option>
+								</select></li>
+								<li><select name="louceng" id="">
+									<option value="楼层">楼层</option>
+									<option value="低楼层">低楼层</option>
+									<option value="中楼层">中楼层</option>
+									<option value="高楼层">高楼层</option>
+								</select></li>
+								<li><select name="品牌" id="">
+									<option value="品牌">品牌</option>
+									<option value="全部品牌">全部品牌</option>
+									<option value="链家">链家</option>
+									<option value="自如">自如</option>	
+								</select></li>
+								<li><select name="fangshi" id="">
+									<option value="方式">方式</option>
+									<option value="全部方式">全部方式</option>
+									<option value="整租">整租</option>
+									<option value="合租">合租</option>
+								</select></li>
+								<li><input type="checkbox">近地铁</li>
+								<li><input type="checkbox">有采暖</li>
+								<li><input type="checkbox">精装修</li>
+								<li><input type="checkbox">随时看房</li>
+								<li><input type="checkbox">阳台独卫</li>
+								<li><input type="checkbox">独卫</li>
+							</ul>
+						</div>
+					</div>
+					<div class="menu4">
+						<div class="menu4-0">
+							<div class="menu4-1"><span>排序:</span></div>
+							<div class="menu4-2"><a href="#">默认</a></div>
+							<div class="menu4-3"><a href="#">最新</a></div>
+							<div class="menu4-4"><a href="#">租金低</a></div>
+							<div class="menu4-5">
+								<select name="mianji" id="">
+									<option value="面积">面积</option>
+									<option value="面积从大到小">面积从大到小</option>
+									<option value="面积从小到大">面积从小到大</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="content">
+					<div class="content-header">
+						<div class="content-header-left">
+							<img src="./images/img2/1.png" alt="">
+							<a href="#">实景图模式</a>
+						</div>
+						<div class="content-header-right">
+							<span class="one">共有</span>
+							<span class="two">16492</span>
+							<span class="three">套北京在租房源</span>
+						</div>
+					</div>
+					<div class="content1">
+						<div class="content1-1">
+							<div class="img"><a href="#"><img src="./images/img1/1.png" alt=""></a></div>
+							<div class="text">
+								<div class="text1">
+									<a href="#"><h2>新外大街21号院3居室 03卧</h2></a>
+									<img src="./images/img2/2.png"  class="img2" alt="">
+								</div> 
+								<div class="text2">
+									<a href="#">外大街21号院</a>
+									<span>3室一厅</span>
+									<span>12平米</span>
+									<span>北</span>
+								</div>
+								<div class="text3">
+									<a href="#">小西天租房</a>
+									<span>/</span>
+									<span>高层楼(共6层)</span>
+									<span>/</span>
+									<span>2000年建楼板</span>
+								</div>
+								<div class="text4">
+									<div>
+										<img src="./images/img2/4.png" alt="">
+										<span id="ditie">距离2号线积水潭站1125米</span>
+									</div>
+									<span id="kanfang">随时看房</span>
+									<span id="ziru">自如友家4.0布丁</span>
+									<div>
+										<img src="./images/img2/3.png" alt="">
+										<span id="gongnuan">集中供暖</span>
+									</div>
+								</div>
+								<div class="text5">
+									<div id="renshu1">0人</div>
+									<div id="renshu2">看过此房</div>
+								</div>
+								<div class="text6">
+									<div id="zujin1">
+										<span id="zujin1-1">4160</span>
+										<span>月/元</span>
+									</div>
+									<div id="zujin2">2018.07.03更新</div>
+								</div>
+							</div>
+						</div>
+						<div class="content1-1">
+							<div class="img"><a href="#"><img src="./images/img1/1.png" alt=""></a></div>
+							<div class="text">
+								<div class="text1">
+									<a href="#"><h2>新外大街21号院3居室 03卧</h2></a>
+									<img src="./images/img2/2.png"  class="img2" alt="">
+								</div> 
+								<div class="text2">
+									<a href="#">外大街21号院</a>
+									<span>3室一厅</span>
+									<span>12平米</span>
+									<span>北</span>
+								</div>
+								<div class="text3">
+									<a href="#">小西天租房</a>
+									<span>/</span>
+									<span>高层楼(共6层)</span>
+									<span>/</span>
+									<span>2000年建楼板</span>
+								</div>
+								<div class="text4">
+									<div>
+										<img src="./images/img2/4.png" alt="">
+										<span id="ditie">距离2号线积水潭站1125米</span>
+									</div>
+									<span id="kanfang">随时看房</span>
+									<span id="ziru">自如友家4.0布丁</span>
+									<div>
+										<img src="./images/img2/3.png" alt="">
+										<span id="gongnuan">集中供暖</span>
+									</div>
+								</div>
+								<div class="text5">
+									<div id="renshu1">0人</div>
+									<div id="renshu2">看过此房</div>
+								</div>
+								<div class="text6">
+									<div id="zujin1">
+										<span id="zujin1-1">4160</span>
+										<span>月/元</span>
+									</div>
+									<div id="zujin2">2018.07.03更新</div>
+								</div>
+							</div>
+						</div>
+						<div class="content1-1">
+							<div class="img"><a href="#"><img src="./images/img1/1.png" alt=""></a></div>
+							<div class="text">
+								<div class="text1">
+									<a href="#"><h2>新外大街21号院3居室 03卧</h2></a>
+									<img src="./images/img2/2.png"  class="img2" alt="">
+								</div> 
+								<div class="text2">
+									<a href="#">外大街21号院</a>
+									<span>3室一厅</span>
+									<span>12平米</span>
+									<span>北</span>
+								</div>
+								<div class="text3">
+									<a href="#">小西天租房</a>
+									<span>/</span>
+									<span>高层楼(共6层)</span>
+									<span>/</span>
+									<span>2000年建楼板</span>
+								</div>
+								<div class="text4">
+									<div>
+										<img src="./images/img2/4.png" alt="">
+										<span id="ditie">距离2号线积水潭站1125米</span>
+									</div>
+									<span id="kanfang">随时看房</span>
+									<span id="ziru">自如友家4.0布丁</span>
+									<div>
+										<img src="./images/img2/3.png" alt="">
+										<span id="gongnuan">集中供暖</span>
+									</div>
+								</div>
+								<div class="text5">
+									<div id="renshu1">0人</div>
+									<div id="renshu2">看过此房</div>
+								</div>
+								<div class="text6">
+									<div id="zujin1">
+										<span id="zujin1-1">4160</span>
+										<span>月/元</span>
+									</div>
+									<div id="zujin2">2018.07.03更新</div>
+								</div>
+							</div>
+						</div>
+						<div class="content1-1">
+							<div class="img"><a href="#"><img src="./images/img1/1.png" alt=""></a></div>
+							<div class="text">
+								<div class="text1">
+									<a href="#"><h2>新外大街21号院3居室 03卧</h2></a>
+									<img src="./images/img2/2.png"  class="img2" alt="">
+								</div> 
+								<div class="text2">
+									<a href="#">外大街21号院</a>
+									<span>3室一厅</span>
+									<span>12平米</span>
+									<span>北</span>
+								</div>
+								<div class="text3">
+									<a href="#">小西天租房</a>
+									<span>/</span>
+									<span>高层楼(共6层)</span>
+									<span>/</span>
+									<span>2000年建楼板</span>
+								</div>
+								<div class="text4">
+									<div>
+										<img src="./images/img2/4.png" alt="">
+										<span id="ditie">距离2号线积水潭站1125米</span>
+									</div>
+									<span id="kanfang">随时看房</span>
+									<span id="ziru">自如友家4.0布丁</span>
+									<div>
+										<img src="./images/img2/3.png" alt="">
+										<span id="gongnuan">集中供暖</span>
+									</div>
+								</div>
+								<div class="text5">
+									<div id="renshu1">0人</div>
+									<div id="renshu2">看过此房</div>
+								</div>
+								<div class="text6">
+									<div id="zujin1">
+										<span id="zujin1-1">4160</span>
+										<span>月/元</span>
+									</div>
+									<div id="zujin2">2018.07.03更新</div>
+								</div>
+							</div>
+						</div>
+						<div class="content1-1">
+							<div class="img"><a href="#"><img src="./images/img1/1.png" alt=""></a></div>
+							<div class="text">
+								<div class="text1">
+									<a href="#"><h2>新外大街21号院3居室 03卧</h2></a>
+									<img src="./images/img2/2.png"  class="img2" alt="">
+								</div> 
+								<div class="text2">
+									<a href="#">外大街21号院</a>
+									<span>3室一厅</span>
+									<span>12平米</span>
+									<span>北</span>
+								</div>
+								<div class="text3">
+									<a href="#">小西天租房</a>
+									<span>/</span>
+									<span>高层楼(共6层)</span>
+									<span>/</span>
+									<span>2000年建楼板</span>
+								</div>
+								<div class="text4">
+									<div>
+										<img src="./images/img2/4.png" alt="">
+										<span id="ditie">距离2号线积水潭站1125米</span>
+									</div>
+									<span id="kanfang">随时看房</span>
+									<span id="ziru">自如友家4.0布丁</span>
+									<div>
+										<img src="./images/img2/3.png" alt="">
+										<span id="gongnuan">集中供暖</span>
+									</div>
+								</div>
+								<div class="text5">
+									<div id="renshu1">0人</div>
+									<div id="renshu2">看过此房</div>
+								</div>
+								<div class="text6">
+									<div id="zujin1">
+										<span id="zujin1-1">4160</span>
+										<span>月/元</span>
+									</div>
+									<div id="zujin2">2018.07.03更新</div>
+								</div>
+							</div>
+						</div>
+						<div class="content1-1">
+							<div class="img"><a href="#"><img src="./images/img1/1.png" alt=""></a></div>
+							<div class="text">
+								<div class="text1">
+									<a href="#"><h2>新外大街21号院3居室 03卧</h2></a>
+									<img src="./images/img2/2.png"  class="img2" alt="">
+								</div> 
+								<div class="text2">
+									<a href="#">外大街21号院</a>
+									<span>3室一厅</span>
+									<span>12平米</span>
+									<span>北</span>
+								</div>
+								<div class="text3">
+									<a href="#">小西天租房</a>
+									<span>/</span>
+									<span>高层楼(共6层)</span>
+									<span>/</span>
+									<span>2000年建楼板</span>
+								</div>
+								<div class="text4">
+									<div>
+										<img src="./images/img2/4.png" alt="">
+										<span id="ditie">距离2号线积水潭站1125米</span>
+									</div>
+									<span id="kanfang">随时看房</span>
+									<span id="ziru">自如友家4.0布丁</span>
+									<div>
+										<img src="./images/img2/3.png" alt="">
+										<span id="gongnuan">集中供暖</span>
+									</div>
+								</div>
+								<div class="text5">
+									<div id="renshu1">0人</div>
+									<div id="renshu2">看过此房</div>
+								</div>
+								<div class="text6">
+									<div id="zujin1">
+										<span id="zujin1-1">4160</span>
+										<span>月/元</span>
+									</div>
+									<div id="zujin2">2018.07.03更新</div>
+								</div>
+							</div>
+						</div>
+						<div class="content1-1">
+							<div class="img"><a href="#"><img src="./images/img1/1.png" alt=""></a></div>
+							<div class="text">
+								<div class="text1">
+									<a href="#"><h2>新外大街21号院3居室 03卧</h2></a>
+									<img src="./images/img2/2.png"  class="img2" alt="">
+								</div> 
+								<div class="text2">
+									<a href="#">外大街21号院</a>
+									<span>3室一厅</span>
+									<span>12平米</span>
+									<span>北</span>
+								</div>
+								<div class="text3">
+									<a href="#">小西天租房</a>
+									<span>/</span>
+									<span>高层楼(共6层)</span>
+									<span>/</span>
+									<span>2000年建楼板</span>
+								</div>
+								<div class="text4">
+									<div>
+										<img src="./images/img2/4.png" alt="">
+										<span id="ditie">距离2号线积水潭站1125米</span>
+									</div>
+									<span id="kanfang">随时看房</span>
+									<span id="ziru">自如友家4.0布丁</span>
+									<div>
+										<img src="./images/img2/3.png" alt="">
+										<span id="gongnuan">集中供暖</span>
+									</div>
+								</div>
+								<div class="text5">
+									<div id="renshu1">0人</div>
+									<div id="renshu2">看过此房</div>
+								</div>
+								<div class="text6">
+									<div id="zujin1">
+										<span id="zujin1-1">4160</span>
+										<span>月/元</span>
+									</div>
+									<div id="zujin2">2018.07.03更新</div>
+								</div>
+							</div>
+						</div>
+						<div class="content1-1">
+							<div class="img"><a href="#"><img src="./images/img1/1.png" alt=""></a></div>
+							<div class="text">
+								<div class="text1">
+									<a href="#"><h2>新外大街21号院3居室 03卧</h2></a>
+									<img src="./images/img2/2.png"  class="img2" alt="">
+								</div> 
+								<div class="text2">
+									<a href="#">外大街21号院</a>
+									<span>3室一厅</span>
+									<span>12平米</span>
+									<span>北</span>
+								</div>
+								<div class="text3">
+									<a href="#">小西天租房</a>
+									<span>/</span>
+									<span>高层楼(共6层)</span>
+									<span>/</span>
+									<span>2000年建楼板</span>
+								</div>
+								<div class="text4">
+									<div>
+										<img src="./images/img2/4.png" alt="">
+										<span id="ditie">距离2号线积水潭站1125米</span>
+									</div>
+									<span id="kanfang">随时看房</span>
+									<span id="ziru">自如友家4.0布丁</span>
+									<div>
+										<img src="./images/img2/3.png" alt="">
+										<span id="gongnuan">集中供暖</span>
+									</div>
+								</div>
+								<div class="text5">
+									<div id="renshu1">0人</div>
+									<div id="renshu2">看过此房</div>
+								</div>
+								<div class="text6">
+									<div id="zujin1">
+										<span id="zujin1-1">4160</span>
+										<span>月/元</span>
+									</div>
+									<div id="zujin2">2018.07.03更新</div>
+								</div>
+							</div>
+						</div>
+					</div>
+		</div>
+		<div class="foot">
+			<div class="box">
+				<div class="footer1">1</div>
+				<div class="footer2"><a href="#">2</a></div>
+				<div class="footer3"><a href="#">3</a></div>
+				<span>...</span>
+				<div class="footer4"><a href="#">100</a></div>
+				<div class="footer5"><a href="#">下一页</a></div>
+			</div>
+		</div>
+	</div>
+	
+	 <!-- 底部 -->
+	<div class="footer">
+		<div class="wrapper">
+			<div class="footer-title">
+				<ul class="f-t-ul">
+					<li><a href="#">了解链家</a></li>
+					<li><a href="#">关于链家</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">加入我们</a></li>
+					<li><a href="#">隐私声明</a></li>
+					<li><a href="#">网站地图</a></li>
+					<li><a href="#">友情链接</a></li>
+					<li><a href="#">经纪人登录</a></li>
+				</ul>
+				<div class="service">官方客服 1010 9666</div>
+			</div>
+
+			<div class="friend-links">
+				<div class="link-type" id="tags">
+					<span>城市二手房</span>
+					<span>商圈二手房</span>
+					<span>热门小区二手房</span>
+					<span>小区</span>
+					<span>新房楼盘</span>
+					<span>城市二手房推荐</span>
+					<span>小区推荐</span>
+					<span>合作与友情链接</span>
+				</div>
+				<div class="link-list" id="link-list">
+					<div style="display: block;">
+						<span>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+							<a href="#" target="_blank">广州二手房</a>
+						</span>
+					</div>
+
+					<div style="display: none;">
+						<span>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+							<a href="#" target="_blank">桂林二手房</a>
+						</span>
+					</div>
+
+					<div style="display: none;">
+						<span>
+							<a href="#" target="_blank">天津二手房</a>	
+							<a href="#" target="_blank">天津二手房</a>			
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>	
+							<a href="#" target="_blank">天津二手房</a>			
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>	
+							<a href="#" target="_blank">天津二手房</a>			
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>	
+							<a href="#" target="_blank">天津二手房</a>			
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>	
+							<a href="#" target="_blank">天津二手房</a>			
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>	
+							<a href="#" target="_blank">天津二手房</a>			
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>	
+							<a href="#" target="_blank">天津二手房</a>			
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>	
+							<a href="#" target="_blank">天津二手房</a>			
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>	
+							<a href="#" target="_blank">天津二手房</a>			
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+							<a href="#" target="_blank">天津二手房</a>
+						</span>
+					</div>
+					<div style="display: none;">
+						<span>
+							<a href="#" target="_blank">南昌二手房</a>
+							<a href="#" target="_blank">南昌二手房</a>
+							<a href="#" target="_blank">南昌二手房</a>
+							<a href="#" target="_blank">南昌二手房</a>
+							<a href="#" target="_blank">南昌二手房</a>
+							<a href="#" target="_blank">南昌二手房</a>
+						</span>
+					</div>
+					<div style="display: none;">
+						<span>
+							<a href="#" target="_blank">北京二手房</a>
+							<a href="#" target="_blank">北京二手房</a>
+							<a href="#" target="_blank">北京二手房</a>
+							<a href="#" target="_blank">北京二手房</a>
+							<a href="#" target="_blank">北京二手房</a>
+						</span>
+					</div>
+					<div style="display: none;">
+						<span>
+							<a href="#" target="_blank">合肥二手房</a>
+							<a href="#" target="_blank">合肥二手房</a>
+							<a href="#" target="_blank">合肥二手房</a>
+							<a href="#" target="_blank">合肥二手房</a>
+							<a href="#" target="_blank">合肥二手房</a>
+							<a href="#" target="_blank">合肥二手房</a>
+							<a href="#" target="_blank">合肥二手房</a>
+							<a href="#" target="_blank">合肥二手房</a>
+							<a href="#" target="_blank">合肥二手房</a>
+							<a href="#" target="_blank">合肥二手房</a>
+							<a href="#" target="_blank">合肥二手房</a>
+							<a href="#" target="_blank">合肥二手房</a>
+						</span>
+					</div>
+					<div style="display: none;">
+						<span>
+							<a href="#" target="_blank">苏州二手房</a>
+							<a href="#" target="_blank">苏州二手房</a>
+							<a href="#" target="_blank">苏州二手房</a>
+							<a href="#" target="_blank">苏州二手房</a>
+							<a href="#" target="_blank">苏州二手房</a>
+							<a href="#" target="_blank">苏州二手房</a>
+							<a href="#" target="_blank">苏州二手房</a>
+							<a href="#" target="_blank">苏州二手房</a>
+							<a href="#" target="_blank">苏州二手房</a>
+							<a href="#" target="_blank">苏州二手房</a>
+							<a href="#" target="_blank">苏州二手房</a>
+							<a href="#" target="_blank">苏州二手房</a>
+						</span>
+					</div>
+					<div style="display: none;">
+						<span>
+							<a href="#" target="_blank">上海二手房</a>
+							<a href="#" target="_blank">上海二手房</a>
+							<a href="#" target="_blank">上海二手房</a>
+							<a href="#" target="_blank">上海二手房</a>
+							<a href="#" target="_blank">上海二手房</a>
+							<a href="#" target="_blank">上海二手房</a>
+							<a href="#" target="_blank">上海二手房</a>
+							<a href="#" target="_blank">上海二手房</a>
+							<a href="#" target="_blank">上海二手房</a>
+							<a href="#" target="_blank">上海二手房</a>
+							<a href="#" target="_blank">上海二手房</a>
+							<a href="#" target="_blank">上海二手房</a>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="bottom">
+				<div class="copyright">
+					链家网（北京）科技有限公司 | 网络经营许可证 京ICP备16057509号-2 | © Copyright©2010-2018 链家网Lianjia.com版权所有
+				</div>
+				<div class="beian">
+					<img src="https://s1.ljcdn.com/feroot/pc/asset/img/home/beian.png?_v=201808031023305">
+					<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802024019" class="beian-desc">京公网安备 11010802024019号</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- 侧边栏 -->
+		<div id="fixed-sidebar">
+    		<div id="sidebar-icons">
+    			<div>
+    				<ul>
+    					<li><i class="fa fa-list fa-lg" aria-hidden="true"></i></li>
+    				</ul>
+    				<div class="line"></div>
+    				<ul>
+    					<li><i class="fa fa-heart fa-lg" aria-hidden="true"></i></li>
+    					<li><i class="fa fa-compress fa-lg" aria-hidden="true"></i></li>
+    				</ul>
+    				<div class="line"></div>
+    				<ul>
+    					<li><i class="fa fa-home fa-lg" aria-hidden="true"><p>买房</p></i>
+    						</li>
+    					<li><i class="fa fa-th-large fa-lg" aria-hidden="true"><p>工具</p></i></li>
+    					<li><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></li>
+    					<li><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></li>
+    					<li><i class="fa fa-comments fa-lg" aria-hidden="true"><p>客服</p></i></li>
+    					<li><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i></li>
+    					<li><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></li>
+    				</ul>
+    			</div>
+    		</div>
+
+    		<div id="to-top">
+    			<div class="triangle-top">
+    			</div>
+    			<p id="top">top</p>
+    		</div>
+    	</div><!-- sidebar END -->
+
+		<!-- 登录 -->
+	<div class="container" id="container">
+	</div>
+		<div class="login" id="login1">
+			<div class="login-info">
+				<i class="close-login" id="close-login">x</i>
+				<div class="login-tab">
+					<div class="title">
+						<div class="shortcut">手机快捷登录</div>
+						<div class="message">别担心，无账号自动注册不会导致手机号被泄露</div>
+					</div>
+					<div class="personmsg">
+						<form action="">
+							<ul>
+								<li><input type="text" placeholder="请输入手机号" maxlength="11"></li>
+								<li class="check"><input class="checkInput"  type="text" maxlength="6" placeholder="请输入验证码">
+								<img class="checkImg" src="../common/login/images/freshCaptch.jpg">
+								</li>
+								<li><input class="verify"  type="text" name="" maxlength="6" placeholder="请输入短信验证码">
+								<a href="#" class="getCode">
+									<em>获取验证码</em>
+								</a>
+								</li>
+								<li class="nologin">
+									<input type="checkbox" name="">7天内免登录
+								</li>
+								<li style="border: none;">
+									<a href="#" class="login-btn">登录</a>
+								</li>
+								<li class="footer-link">
+									<a href="">账号密码登录</a>
+								</li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+	<script src="../index/js/footer.js"></script>
+	<!-- <script src="../common/sidebar/top.js"></script> -->
+	<script src="../common/login/block.js"></script>
+</body>
+</html>

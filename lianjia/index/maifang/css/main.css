@@ -1,0 +1,338 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,ol{
+	list-style: none;
+}
+html{
+	font-family: "Hiragino Sans GB","Microsoft Yahei UI","Microsoft Yahei","微软雅黑",'Segoe UI',Tahoma,"宋体b8b\4f53",SimSun,sans-serif;
+}
+
+.wrapper{
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.sprite{
+	display: inline-block;
+	background-image: url(../images/sprite.png);
+}
+
+#banner{
+	height: 38px;
+	background-color: #394043;
+	width: 100%;
+	line-height: 38px;
+	font-size: 12px;
+	color: #fff;
+}
+
+#banner-nav{
+	float: left;
+}
+
+#banner-nav ul li{
+	float: left;
+	margin-right: 21px;
+}
+
+#banner-nav ul li a{
+	color: #a9abab;
+	font-size: 12px;
+}
+
+#banner-nav ul li a:hover{
+	color: #fff;
+}
+
+#login{
+	float: right;
+}
+
+#login a{
+	color: #fff;
+}
+
+#login a:hover{
+	text-decoration: underline;
+}
+
+#login i{
+	height: 12px;
+	width: 12px;
+	margin: 0 8px 0 20px;
+}
+
+#sprite-user{
+	background-position: -451px -151px;
+}
+
+#sprite-phone{
+	background-position: -389px -197px;
+}
+
+#header{
+	padding-top: 30px;
+	padding-bottom: 25px;
+	height: 32px;
+	background-color: #f5f5f6;
+}
+
+#sprite-logo{
+	display: inline-block;
+	width: 120px;
+	height: 32px;
+	background-position: 0 -373px;
+	background-origin: content-box;
+	background-clip: content-box;
+}
+
+#header-nav{
+	display: inline-block;
+	margin-left: 24px;
+}
+
+#header-nav ul li{
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 30px;
+}
+
+#header-nav ul li a{
+	font-size: 16px;
+	color: #394043;
+}
+
+#header-nav ul li a.active{
+	color: #00ae66;
+}
+
+#getApp{
+	margin-top: ;
+	float: right;
+	font-size: 16px;
+	color: #394043;
+}
+
+#getApp:hover{
+	text-decoration: underline;
+}
+
+#sprite-getApp{
+	height: 18px;
+	width: 14px;
+	margin-right: 10px;
+	background-position: -452px -112px;
+}
+
+#jumbotron{
+	height: 64px;
+	width: 100%;
+	padding: 20px 0 50px 0;
+	background-color: #f5f5f6;
+	text-align: center;
+}
+
+#title{
+	font-size: 33px;
+	font-weight: bold;
+}
+
+#sub-title{
+	margin-top: 15px;
+	font-size: 16px;
+	color: #878787;
+}
+
+#form{
+	margin: 55px auto 0;
+	height: 395px;
+	width: 990px;
+}
+
+#form-left{
+	float: left;
+	height: 100%;
+	width: 590px;
+}
+
+#form-left dl{
+	width: 100%;
+	height: 40px;
+	padding: 12px 0;
+	border-bottom: 1px solid #eee;
+	line-height: 1;
+}
+
+#form-left dl:first-child{
+	height: 14px;
+	padding-top: 0;
+	padding-bottom: 25px;
+}
+
+#form-left dl dt{
+	float: left;
+	height: 100%;
+	color: #333;
+	font-weight: bold;
+	width: 120px;
+	line-height: 40px;
+}
+
+#form-left dl:first-child *{
+	line-height: 14px;
+}
+
+#form-left dl dd{
+	float: left;
+	width: 470px;
+}
+
+#form-left dl dd input{
+	height: 20px;
+	padding: 10px 0;
+	color: #9c9fa1;
+}
+
+#form-left dl dd input.text{
+	width: 470px;
+
+}
+
+#form-left dl dd input.number{
+	height: 30px;
+	width: 126px;
+	padding: 5px 10px;
+	margin-left: 16px;
+	background-color: #f5f5f6;
+	border-radius: 1px;
+}
+
+#form-left dl dd input.number:first-child{
+	margin-left: 0;
+}
+
+#form-left dl dd input.money{
+	width: 210px;
+}
+
+#form-left dl dd span{
+	font-weight: bold;
+}
+
+#form-left dl dd a{
+	height: 100%;
+	float: right;
+	color: #009de8;
+	font-size: 12px;
+	line-height: 40px;
+}
+
+#form-left dl dd a:hover{
+	text-decoration: underline;
+}
+
+#form-right{
+	float: right;
+	height: 395px;
+	width: 340px;
+	background-color: #f5f5f6;
+	box-shadow: 0 3px 7px 0 rgba(0,0,0,0.14);
+}
+
+#hd{
+	position: relative;
+	height: 46px;
+	width: 280px;
+	padding: 22px 30px;
+	background-color: #394043;
+	color: #fff;
+}
+
+#tit{
+	height: 14px;
+	font-size: 14px;
+}
+
+#sub-tit{
+	margin-top: 10px;
+	height: 22px;
+	font-size: 22px;
+}
+
+#tit-img{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	height: 18px;
+	width: 18px;
+	background-position: -427px -163px;
+}
+
+#bd{
+	height: 237px;
+	width: 284px;
+	padding: 8px 28px 0;
+}
+
+#bd li{
+	position: relative;
+	height: 38px;
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+#bd li a{
+	display: block;
+	font-weight: bold;
+	line-height: 20px;
+	color: #333;
+}
+
+#bd li p{
+	margin-top: 6px;
+	color: #aaa;
+	font-size: 12px;
+}
+
+#bd li span{
+	position: absolute;
+	right: 0;
+	bottom: 22px;
+	font-weight: bold;
+	color: #e4393c;
+}
+
+#ft{
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 60px;
+	font-size: 12px;
+}
+
+#ft:hover{
+	text-decoration: underline;
+}
+
+#submit{
+	height: 55px;
+	width: 190px;
+	margin: 60px auto 60px;
+	background-color: #00ac65;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 55px;
+	cursor: pointer;
+}

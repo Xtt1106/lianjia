@@ -1,0 +1,187 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,ol{
+	list-style: none;
+}
+
+.line{
+	height: 1px;
+	background-color: #ccc;
+}
+
+#consult{
+	position: fixed;
+	bottom: -394px;
+	right: 38px;
+	width: 240px;
+	height: 434px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.45);
+	background-color: #fff;
+}
+
+#consult-top{
+	height: 40px;
+	width: 100%;
+	font-size: 14px;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: 216px -109px;
+	cursor: pointer;
+}
+
+#consult-top i{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin: 12px 12px -4px;
+	background-image: url(../images/lianjiaim.png);
+	background-repeat: no-repeat;
+}
+/* consult END*/
+
+#fixed-footer{
+	position: fixed;
+	bottom: 0;
+	height: 130px;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: -1px 0 10px rgba(0,0,0,0.2);
+}
+
+#fixed-footer-container{
+	width: 600px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#iphone{
+	float: left;
+	position: relative;
+	top: -50px;
+	height: 184px;
+	width: 190px;
+	background-image: url(../images/iphone.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+#fixed-footer-text{
+	margin-left: 30px;
+	float: left;
+}
+
+#fixed-footer-text h3{
+	padding: 36px 0 15px;
+	font-size: 1.25em;
+	color: #333;
+}
+
+#fixed-footer-text small{
+	color: #999;
+	font-size: 13px;
+}
+
+#app{
+	float: left;
+	height: 88px;
+	width: 88px;
+	margin-left: 60px;
+	margin-top: 22px;
+	background-image: url(../images/footApp.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+#close{
+	float: right;
+	margin-top: 10px;
+	color: #ccc;
+	cursor: pointer;
+}
+/* fixed-footer END*/
+
+#fixed-sidebar{
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 38px;
+	height: 100%;
+	background-color: #fff;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+	text-align: center;
+}
+
+#sidebar-icons{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+#sidebar-icons li{
+	width: 38px;
+	height: 42px;
+	margin: 2px 0;
+	line-height: 42px;
+}
+
+#sidebar-icons li i{
+	margin-top: 8px;
+}
+
+#sidebar-icons li i.fa-mobile{
+	margin-top: 8px;
+}
+
+#sidebar-icons li i p{
+	font-size: 12px;
+}
+
+#sidebar-icons li:hover{
+	background-color: #222;
+	color: #fff;
+}
+
+#sidebar-icons .line{
+	width: 20px;
+	margin: 0 auto;
+}
+
+#to-top{
+	position: absolute;
+	bottom: 30px;
+	height: 38px;
+	width: 100%;
+	background-color: #fff;
+}
+
+#to-top:hover{
+	background-color: #222;
+	cursor: default;
+}
+
+.triangle-top{
+	width: 0;
+	height: 0;
+	margin: 8px auto 0;
+	border-style: solid;
+	border-width: 0 6px 6px;
+	border-color: transparent transparent #222;
+}
+
+#to-top:hover .triangle-top{
+	border-color: transparent transparent #fff;
+
+}
+
+#to-top p{
+	font-size: 14px;
+}
+
+#to-top:hover p{
+	color: #fff;
+}
+/* fixed-sidebar END*/

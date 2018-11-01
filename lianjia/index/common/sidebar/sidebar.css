@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,ol{
+	list-style: none;
+}
+
+#fixed-sidebar{
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 38px;
+	height: 100%;
+	background-color: #fff;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+	text-align: center;
+	z-index: 10;
+}
+
+#sidebar-icons{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+#sidebar-icons li{
+	width: 38px;
+	height: 42px;
+	margin: 2px 0;
+	line-height: 42px;
+}
+
+#sidebar-icons li i{
+	margin-top: 8px;
+}
+
+#sidebar-icons li i.fa-mobile{
+	margin-top: 8px;
+}
+
+#sidebar-icons li i p{
+	font-size: 12px;
+}
+
+#sidebar-icons li:hover{
+	background-color: #222;
+	color: #fff;
+}
+
+.line{
+	height: 1px;
+	width: 20px;
+	margin: 0 auto;
+	background-color: #ccc;
+}
+
+#to-top{
+	position: absolute;
+	bottom: 30px;
+	height: 38px;
+	width: 100%;
+	background-color: #fff;
+}
+
+#to-top:hover{
+	background-color: #222;
+	cursor: default;
+}
+
+.triangle-top{
+	width: 0;
+	height: 0;
+	margin: 8px auto 0;
+	border-style: solid;
+	border-width: 0 6px 6px;
+	border-color: transparent transparent #222;
+}
+
+#to-top:hover .triangle-top{
+	border-color: transparent transparent #fff;
+
+}
+
+#to-top p{
+	font-size: 14px;
+}
+
+#to-top:hover p{
+	color: #fff;
+}

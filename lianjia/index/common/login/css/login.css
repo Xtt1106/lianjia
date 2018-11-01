@@ -1,0 +1,145 @@
+/*
+* @Author: 12574
+* @Date:   2018-08-08 14:32:06
+* @Last Modified by:   12574
+* @Last Modified time: 2018-08-08 18:37:46
+*/
+.container {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #000;
+	opacity: .6;
+	display: none;
+	z-index: 1000;
+}
+.login {
+	display: none;
+	width: 340px;
+	height: auto;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -190px;
+	margin-top: -205px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 1px 3px 14px rgba(0,0,0,0.3);
+	z-index: 10000;
+}
+.login .login-info {
+	padding-top: 40px;
+	width: 300px;
+	/*border: 1px solid red;*/
+}
+.login .login-info .close-login {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+	padding: 4px;
+	font-weight: 400;
+	font-style: normal;
+}
+.login .login-info .login-tab .title {
+	min-height: 20px;
+	line-height: 20px;
+	margin-bottom: 40px;
+	/*border: 1px solid blue;*/
+}
+.login .login-info .login-tab .title .shortcut {
+	font-size: 20px;
+	color: #333;
+	font-weight: bold;
+	/*border: 1px solid yellow;*/
+}
+.login .login-info .login-tab .title .message {
+	color: #aaa;
+	padding-top: 15px;
+	font-size: 14px;
+	/*border: 1px solid purple;*/
+}
+.login .login-info .login-tab .personmsg li {
+	border: 1px solid #dbdbdb;
+	border-radius: 2px 2px 0 0;
+	height: 50px;
+	color: #555;
+	line-height: 50px;
+}
+.login .login-info .login-tab .personmsg li.check {
+	/*margin-top: -1px;*/
+}
+.login .login-info .login-tab .personmsg li.check .checkImg {
+	float: left;
+	height: 45px;
+	width: 125px;
+}
+.login .login-info .login-tab .personmsg li.check input.checkInput {
+	width: 151px;
+	float: left;
+}
+.login .login-info .login-tab .personmsg li input.verify {
+	width: 125px;
+}
+.login .login-info .login-tab .personmsg li a.getCode {
+	color: #333;
+	float: right;
+}
+.login .login-info .login-tab .personmsg li a.getCode em {
+	padding: 0 16px;
+	border-left: 1px solid #dbdbdb;
+}
+.login .login-info .login-tab .personmsg li.nologin {
+	height: 18px;
+	line-height: 18px;
+	padding: 24px 0;
+	/*border: none;*/
+	border-left: none;
+	border-right: none;
+}
+.login .login-info .login-tab .personmsg li.nologin input {
+	width: 16px;
+	height: 16px;
+	border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    position: relative;
+    margin-top: -2px;
+    margin-right: 6px;
+}
+.login .login-info .login-tab .personmsg li .login-btn {
+	display: block;
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	background-color: #39ac6a;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+}
+.login .login-info .login-tab .personmsg li.footer-link {
+	padding: 24px 0 0;
+	height: 14px;
+	line-height: 14px;
+	border: none;
+}
+.login .login-info .login-tab .personmsg li.footer-link a {
+	color: #00AE66;
+}
+.login .login-tab .personmsg input {
+	width: 282px;
+	height: 50px;
+	line-height: 50px;
+	color: #333;
+	font-size: 14px;
+	padding-left: 16px;
+	/*border: 1px solid red;*/
+}
